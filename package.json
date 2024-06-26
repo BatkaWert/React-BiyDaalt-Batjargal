@@ -7,9 +7,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "generate-html": "mkdir -p dist && cp index.html dist/",
     "dev": "vite",
     "homepage":"https://react-biy-daalt-batjargal-wgvw.vercel.app/", 
-    "build": "vite build",
+    "build": "npm run generate-html && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
