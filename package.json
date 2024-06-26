@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d build",
     "generate-html": "mkdir -p dist && cp index.html dist/",
     "dev": "vite",
-    "homepage":"https://react-biy-daalt-batjargal-wgvw.vercel.app/", 
+    "homepage":"https://react-biy-daalt-batjargal.vercel.app/", 
     "build": "npm run generate-html && vite build",
     "preview": "vite preview"
   },
